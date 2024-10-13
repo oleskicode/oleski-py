@@ -3,15 +3,16 @@ user_string = input("Type text to check if it is a palindrome:")
 user_string2 = "A man a plan a canal Panama"
 user_string3 = "234_432"
 
+
 def is_palindrome_noob(input_string):
-    input_string = input_string.replace(" ", "") #remove spaces
-    input_list = list(input_string.lower()) #string to list
+    input_string = input_string.replace(" ", "")  # remove spaces
+    input_list = list(input_string.lower())  # string to list
     print(input_list)
     # print(len(input_list))
-    string_middle = int(len(input_string)/2)
+    string_middle = int(len(input_string) / 2)
     # print(string_middle)
     for i in range(string_middle):
-        if input_list[i] != input_list[len(input_list)-1-i]:
+        if input_list[i] != input_list[len(input_list) - 1 - i]:
             print(f"{input_list[i]} != {input_list[len(input_list) - 1 - i]}")
             print("Not a palindrome")
             return

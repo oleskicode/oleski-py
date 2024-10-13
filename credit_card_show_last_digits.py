@@ -1,6 +1,7 @@
 card_number1 = "0123 1234 1234 5678"
 card_number2 = "0123 1234 1234 9291"
 
+
 def show_only_last_four_noob(card_number):
     print(card_number)
     input_string_length = len(card_number)
@@ -11,14 +12,16 @@ def show_only_last_four_noob(card_number):
             output_string += " "
         else:
             output_string += "*"
-    for i in range(4,0,-1):
-        output_string += card_number[input_string_length-i]
+    for i in range(4, 0, -1):
+        output_string += card_number[input_string_length - i]
     print(output_string)
+
 
 def show_only_last_four_pro(card_number):
     print(card_number)
     last_four_numbers = card_number[-4::]  # Slicing the last 4 characters
     print("**** **** **** " + last_four_numbers)
+
 
 show_only_last_four_noob(card_number1)
 show_only_last_four_noob(card_number2)

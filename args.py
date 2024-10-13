@@ -4,8 +4,9 @@ def add_numbers(*args):
         sum += number
     print(sum)
 
+
 add_numbers()
 add_numbers(1)
-add_numbers(1,2)
-add_numbers(1,2,3)
-add_numbers(1,2,3,4)
+add_numbers(1, 2)
+add_numbers(1, 2, 3)
+add_numbers(1, 2, 3, 4)
