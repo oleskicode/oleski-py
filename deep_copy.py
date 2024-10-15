@@ -3,6 +3,7 @@ from copy import deepcopy
 def is_equal_is(list_1, list_2):
     print(f"List A: {list_1}")
     print(f"List B: {list_2}")
+    print(f"A == B: {list_1 == list_2}")
     print(f"A is B: {list_1 is list_2}")
 
 original_list = [[1, 1], [2, 2], [3, 3]]
