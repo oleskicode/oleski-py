@@ -1,4 +1,4 @@
-class Tractor():
+class Tractor:
     def __init__(self, color):
         self.color = color
         self.wheels = 4
@@ -10,4 +10,6 @@ class Tractor():
 
 trackie = Tractor("green")
 
-print(trackie.get_color)  # without parentheses () since get_color is a property, not a method.
+print(
+    trackie.get_color
+)  # without parentheses () since get_color is a property, not a method.
