@@ -1,6 +1,6 @@
 from colorama import Fore, Back
 
-with open('colorama_text.txt') as f:
+with open("colorama_text.txt") as f:
     readfile = f.read()
     print(readfile)
 

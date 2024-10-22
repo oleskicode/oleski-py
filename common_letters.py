@@ -1,7 +1,8 @@
-def common_letters(string1: str, string2: str) -> str:
+def common_letters(string1: str, string2: str):
     result_list = []
-    string1 = string1.lower().replace(" ","")
-    string2 = string2.lower().replace(" ","")
+    # Remove spaces and convert to lowercase
+    string1 = string1.lower().replace(" ", "")
+    string2 = string2.lower().replace(" ", "")
 
     if len(string1) >= len(string2):
         longer_list = list(string1)
@@ -18,6 +19,7 @@ def common_letters(string1: str, string2: str) -> str:
             if char in longer_list:
                 result_list.append(char)
     print(f"Common chars are: {result_list}")
+
 
 string1 = "apple pie"
 string2 = "banana pizza"
