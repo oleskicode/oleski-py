@@ -3,9 +3,11 @@
 import functools
 
 list1 = ["W", "H", "O", "A"]
-word = functools.reduce(lambda x, y: x+y,list1)
+word = functools.reduce(lambda x, y: x + y, list1)
 print(word)
 
 list2 = [5, 4, 3, 2, 1]
-sum = functools.reduce(lambda a,b: a+b, list2)
+print(list2)
+
+sum = functools.reduce(lambda a, b: a + b, list2)
 print(sum)
