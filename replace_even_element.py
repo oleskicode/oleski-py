@@ -10,4 +10,5 @@ def replace_even_element(string1):
             list2.append("*")
     print(list2)
 
+
 replace_even_element("12345678")

@@ -3,7 +3,9 @@ import requests
 base_url = "https://api.stackexchange.com"
 print(base_url)
 
-response = requests.get(base_url + '/2.3/questions?order=desc&sort=activity&site=stackoverflow')
+response = requests.get(
+    base_url + "/2.3/questions?order=desc&sort=activity&site=stackoverflow"
+)
 print(f"Status Code: {response.status_code} \n")
 
 print(f"response.headers ${response.headers} \n")
@@ -20,7 +22,6 @@ with open("response.json", "w") as file:
 # print(type(response.connection))
 # print(type(response.status_code))
 
-for item in response.json()['items']:
-    print(item['title'])
-    print(item['link'])
-
+for item in response.json()["items"]:
+    print(item["title"])
+    print(item["link"])
