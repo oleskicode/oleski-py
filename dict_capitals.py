@@ -1,11 +1,7 @@
 # Create a dictionary that contains information about countries and their capitals.
 # Ask the user for the name of a country and output the capital of that country (if item exists in the dictionary).
 
-country_capitals = {
-    "Italy":"Rome",
-    "Ukraine":"Kyiv",
-    "France":"Paris"
-}
+country_capitals = {"Italy": "Rome", "Ukraine": "Kyiv", "France": "Paris"}
 
 print(country_capitals)
 

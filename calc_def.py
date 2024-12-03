@@ -1,8 +1,10 @@
 def calc_add(a, b):
-    return a+b
+    return a + b
 
-def calc_multiply(a,b):
-    return a*b
+
+def calc_multiply(a, b):
+    return a * b
+
 
 def calc_average(*args):
     print(f"args: {args}")
@@ -12,7 +14,8 @@ def calc_average(*args):
     for arg in args:
         args_sum += arg
     print(f"Average: {args_sum/count}")
-    return args_sum/count
+    return args_sum / count
+
 
 def find_max(*args):
     print(f"args: {args}")

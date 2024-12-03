@@ -6,6 +6,7 @@ def my_generator():
     print("After second yield")
     yield 3
 
+
 gen = my_generator()
 
 print(next(gen))  # Outputs 1, prints "First part"
