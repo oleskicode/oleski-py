@@ -52,8 +52,8 @@ def parse_quadratic_eq(input_str):
         print("x = ", x)
         return x
 
-    x1 = (-b + discriminant**0.5) / (2 * a)
-    x2 = (-b - discriminant**0.5) / (2 * a)
+    x1 = (-b - discriminant**0.5) / (2 * a)
+    x2 = (-b + discriminant**0.5) / (2 * a)
 
     print("x1 = ", x1)
     print("x2 = ", x2)
@@ -66,5 +66,5 @@ def parse_quadratic_eq(input_str):
 # parse_quadratic_eq("9x2-12x+4=0")
 # parse_quadratic_eq("4x2+4x+1=0")
 # parse_quadratic_eq("x2-5x+6=0")
-# parse_quadratic_eq("2x2-7x+3=0")
+parse_quadratic_eq("2x2-7x+3=0")
 # parse_quadratic_eq("-x2+12x+9=0")
