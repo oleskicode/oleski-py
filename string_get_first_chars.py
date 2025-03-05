@@ -1,4 +1,4 @@
-# function to extract a specified number of characters from a string from first element.
+# Function to extract a specified number of characters from a string from first element.
 # print(truncate_string("Robin Hood", 4)) # Output: "Robi"
 
 def truncate_string(input_string :str, length :int) -> str:

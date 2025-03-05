@@ -1,7 +1,4 @@
-# Camelize String function to convert a string into camel case.
-# print(camelize("some Exercises"));
-# print(camelize("some more exercise"));
-
+# Function camelize to convert string into camel case
 
 def camelize(string: str) -> str:
     splitted = string.split(" ")

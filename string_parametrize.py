@@ -1,5 +1,5 @@
-# Write function to parameterize a string.
-# Test Data : print(string_parameterize("Robin Hood from England."));
+# Function to parametrize a string.
+# Test Data : print(string_parametrize("Robin Hood from England."));
 # "robin-hood-from-england"
 
 def string_parametrize(input_string: str) -> str:
