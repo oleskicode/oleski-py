@@ -1,6 +1,7 @@
 user_input_string = input("Input snake_case_string:")
 # user_input_string = "snake_case_string_here"
 
+
 def snake_to_camel_case(input_string):
     print(input_string)
     input_list = list(input_string)  # String to List

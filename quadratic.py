@@ -2,6 +2,7 @@
 # assume input is always valid
 # solve it
 
+
 def parse_quadratic_eq(input_str):
     print(input_str)
     input_str = input_str.replace(" ", "").replace("=0", "")
@@ -17,7 +18,7 @@ def parse_quadratic_eq(input_str):
     print(f"a = {a}")
 
     b_string = input_str.split("x2")[1]
-    if 'x' in b_string:
+    if "x" in b_string:
         # print("b is present")
         if b_string.split("x")[0] == "-":
             b = -1
@@ -31,7 +32,7 @@ def parse_quadratic_eq(input_str):
     print(f"b = {b}")
 
     c_string = input_str.split("x2")[1]
-    if 'x' in c_string:
+    if "x" in c_string:
         c_string = c_string.split("x")[1]
     # print(f"c_string = {c_string}")
     if c_string == "" or c_string == "0":
@@ -41,7 +42,7 @@ def parse_quadratic_eq(input_str):
         c = float(c_string)
     print(f"c = {c}")
 
-    discriminant = b**2 - 4*a*c
+    discriminant = b**2 - 4 * a * c
     # print("D = ", discriminant)
     if discriminant < 0:
         print("D < 0. No solution.")
