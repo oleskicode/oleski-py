@@ -1,5 +1,6 @@
 # Convert string camelCase format to snake_case: getRandomColor > get_random_color
 
+
 def convert_to_snake_case(input_string):
     # print(input_string)
     input_list = list(input_string)
@@ -11,6 +12,7 @@ def convert_to_snake_case(input_string):
         else:
             output_list.append(char)
     return "".join(output_list)
+
 
 print(convert_to_snake_case("getRandomColor"))
 print(convert_to_snake_case("getSomeRandomNumber"))
