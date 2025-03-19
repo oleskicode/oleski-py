@@ -1,9 +1,9 @@
-def add_numbers(*args):
-    sum = 0
+def add_numbers(*args) -> float:
+    sum_args: float = 0
     for number in args:
-        sum += number
-    print(sum)
-
+        sum_args += number
+    print(sum_args)
+    return sum_args
 
 add_numbers()
 add_numbers(1)
