@@ -11,9 +11,9 @@ def version_compare(version1: str, version2: str) -> str:
     print(list2)
 
     for i in range(len(list1)):
-        if list1[i] == list2[i]:
+        if int(list1[i]) == int(list2[i]):
             continue
-        if list1[i] > list2[i]:
+        if int(list1[i]) > int(list2[i]):
             return version1
         else:
             return version2
