@@ -7,13 +7,13 @@ slice_string("abcdefg", "c") >> "defg"
 """
 
 
-def slice_string(input_string, char):
+def slice_string(input_string: str, char: str):
     print(f"Slice {input_string} from {char}:")
     slice_index = input_string.index(char)
     print(input_string[slice_index + 1 :])
 
 
-def slice_string2(input_string, char):
+def slice_string2(input_string: str, char: str):
     print(f"Slice {input_string} from {char}:")
     print(input_string[input_string.index(char) + 1 : :])
 

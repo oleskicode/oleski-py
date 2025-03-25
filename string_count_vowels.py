@@ -1,8 +1,8 @@
-# Count how many VOWEL characters are in the string
 vowels = ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"]
 
 
 def count_vowels(str_input: str) -> int:
+    """Count how many vowel characters are in the string"""
     vowels_count = 0
     for char in str_input:
         if char in vowels:

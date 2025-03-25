@@ -18,7 +18,8 @@ def version_compare(version1: str, version2: str) -> str:
         else:
             return version2
 
-    return version1 # if identical
+    return version1  # if identical
+
 
 print(version_compare.__doc__)
 
