@@ -5,6 +5,7 @@ def add_numbers(*args) -> float:
     print(sum_args)
     return sum_args
 
+
 add_numbers()
 add_numbers(1)
 add_numbers(1, 2)
