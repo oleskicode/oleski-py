@@ -3,7 +3,7 @@ def convert_to_american(x):
     return (x[0], x[1] * usd_cad)
 
 
-timber_prices_in_canada = [("pinetree", 40), ("oak", 80), ("mapple", 50)]
+timber_prices_in_canada = [("pine tree", 40), ("oak", 80), ("maple", 50)]
 print(timber_prices_in_canada)
 
 mapped = map(convert_to_american, timber_prices_in_canada)

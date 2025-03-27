@@ -1,4 +1,4 @@
-sample_dictionary = {"Oleski": 1, "Code": 2.0, "Dict": "Three"}
+sample_dictionary = {"First": 1, "Second": 2.0, "Third": "Three"}
 
 print(sample_dictionary)
 print(sample_dictionary.keys())
