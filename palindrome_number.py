@@ -10,10 +10,10 @@
 # **Explanation:** From left to right, it reads -121. From right to left, it becomes 121-. Therefore, it is not a palindrome.
 
 
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        return str(x) == str(x)[::-1]
+def isPalindrome(x: int) -> bool:
+    if x < 0: return False
+    return str(x) == str(x)[::-1]
 
 
-print(Solution.isPalindrome(Solution(),121))
-print(Solution.isPalindrome(Solution(),-121))
+print(isPalindrome(121))
+print(isPalindrome(-121))
