@@ -16,6 +16,7 @@ while True:
 
 print(f"a + b = {a + b}")
 
+
 # a little bit better way
 def input_number(prompt):
     while True:
@@ -24,6 +25,7 @@ def input_number(prompt):
             return num
         except ValueError:
             print("Not a number")
+
 
 c = input_number("c = ")
 d = input_number("d = ")

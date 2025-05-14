@@ -3,11 +3,11 @@
 # The summary should count the number of test cases for each status and group all test descriptions by their status.
 # Input Example:
 testCases = [
-    { "id": 1, "description": "Login with valid credentials", "status": "passed" },
-    { "id": 2, "description": "Login with invalid credentials", "status": "failed" },
-    { "id": 3, "description": "Forgot password flow", "status": "skipped" },
-    { "id": 4, "description": "Update profile", "status": "passed" },
-    { "id": 5, "description": "Delete account", "status": "failed" },
+    {"id": 1, "description": "Login with valid credentials", "status": "passed"},
+    {"id": 2, "description": "Login with invalid credentials", "status": "failed"},
+    {"id": 3, "description": "Forgot password flow", "status": "skipped"},
+    {"id": 4, "description": "Update profile", "status": "passed"},
+    {"id": 5, "description": "Delete account", "status": "failed"},
 ]
 
 # Output Example:
@@ -28,9 +28,10 @@ testCases = [
 
 import json
 
+
 def generate_summary(input_list: list) -> json:
     print(input_list)
-    summary_dict = {"passed":{},"failed":{},"skipped":{}}
+    summary_dict = {"passed": {}, "failed": {}, "skipped": {}}
     passed_list = []
     failed_list = []
     skipped_list = []
